@@ -1,0 +1,1 @@
+Hello, this is a sample text file. It contains some text to demonstrate file operations in PowerShell.
