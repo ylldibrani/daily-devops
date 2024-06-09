@@ -41,4 +41,5 @@ module "aks_cluster" {
   default_node_pool_enable_auto_scaling = var.default_node_pool_enable_auto_scaling
   default_node_pool_node_count          = var.default_node_pool_node_count
   default_node_pool_max_count           = var.default_node_pool_max_count
+  default_node_pool_min_count           = var.default_node_pool_min_count
 }
