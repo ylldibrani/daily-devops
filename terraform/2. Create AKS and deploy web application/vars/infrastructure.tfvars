@@ -4,7 +4,7 @@ resource_group_name = "rg-aks-ylldibrani-westeu-001"
 location = "westeurope" 
 
 default_node_pool_name = "default"
-default_node_pool_vm_size = "Standard_DS2_v2"
+default_node_pool_vm_size = "Standard_D4ds_v5"
 
 default_node_pool_availability_zones = ["1"]
 default_node_pool_enable_auto_scaling = true
