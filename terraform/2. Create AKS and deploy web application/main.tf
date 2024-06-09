@@ -1,6 +1,10 @@
 resource "azurerm_resource_group" "vnet_resource_group" {
   name     = "vnet"
   location = var.location
+  
+  tags = {
+    environment = "test"
+  }
 }
 
 resource "azurerm_virtual_network" "aks_vnet" {
