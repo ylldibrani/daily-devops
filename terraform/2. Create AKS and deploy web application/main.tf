@@ -1,14 +1,14 @@
 resource "azurerm_resource_group" "vnet_resource_group" {
-  name     = "vnet"
+  name     = "rg-vnet-ylldibrani-002"
   location = var.location
-  
+
   tags = {
     environment = "test"
   }
 }
 
 resource "azurerm_virtual_network" "aks_vnet" {
-  name                = "vnet-ylldibrani-aks-001"
+  name                = "vnet-ylldibrani-westeu-002"
   location            = var.location
   resource_group_name = azurerm_resource_group.vnet_resource_group.name
   address_space       = ["10.123.0.0/19"]
