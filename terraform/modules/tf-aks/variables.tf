@@ -52,3 +52,9 @@ variable "default_vnet_subnet_id" {
   description = "(Optional) The ID of the Subnet where this Node Pool should exist."
   type        = string
 }
+
+variable "default_node_pool_max_count" {
+  type        = number
+  default     = 3
+  description = "(Optional) The maximum number of nodes which should exist in this Node Pool. If specified this must be between 1 and 1000."
+}

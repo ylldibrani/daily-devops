@@ -29,6 +29,7 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
     node_taints         = []
     enable_auto_scaling = var.default_node_pool_enable_auto_scaling
     node_count          = var.default_node_pool_node_count
+    max_count           = var.default_node_pool_max_count
     os_disk_type        = "Managed"
   }
 
