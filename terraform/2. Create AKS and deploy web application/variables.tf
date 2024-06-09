@@ -42,3 +42,9 @@ variable "default_node_pool_node_count" {
   description = "(Optional) The initial number of nodes which should exist within this Node Pool. Valid values are between 0 and 1000 and must be a value in the range min_count - max_count."
   type        = number
 }
+
+variable "default_node_pool_max_count" {
+  type        = number
+  default     = 3
+  description = "(Optional) The maximum number of nodes which should exist in this Node Pool. If specified this must be between 1 and 1000."
+}
