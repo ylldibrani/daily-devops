@@ -20,7 +20,7 @@ resource "azurerm_virtual_network" "aks_vnet" {
 }
 
 module "aks_cluster" {
-  source              = "https://github.com/ylldibrani/daily-devops//terraform/modules/tf-aks"
+  source              = "git::https://github.com/ylldibrani/daily-devops//terraform/modules/tf-aks"
   aks_cluster_name    = var.aks_cluster_name
   kubernetes_version  = var.kubernetes_version
   resource_group_name = var.resource_group_name
