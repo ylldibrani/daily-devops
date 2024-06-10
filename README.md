@@ -22,4 +22,4 @@ This repository contains examples of tasks for an DevOps engineer on daily bases
 
 - [Use Azure Quota API to retrieve list of quota limits for subscription or scope. (python, bash or powershell)](https://github.com/ylldibrani/daily-devops/tree/main/azure/1.%20Use%20Azure%20Quota%20API%20to%20retrieve%20list%20of%20quota%20limits%20for%20subscription%20or%20scope)
 
-- [If it possible, deploy Grafana on AKS, connect to any azure resource and display on graph]((https://github.com/ylldibrani/daily-devops/tree/main/azure/2.%20Deploy%20Grafana%20on%20AKS))
+- [If it possible, deploy Grafana on AKS, connect to any azure resource and display on graph](https://github.com/ylldibrani/daily-devops/tree/main/azure/2.%20Deploy%20Grafana%20on%20AKS)
