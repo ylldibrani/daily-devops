@@ -1,4 +1,4 @@
-# Deploy Grafana on AKS
+# Azure Monitor on Grafana
 
 Connect to any azure resource and display on graph
 
@@ -11,3 +11,9 @@ Paste credentials from an Service Account created in Azure which has access on t
 Load Subscriptions in the tenant and select the subscription we want to monitor using Grafana. Press Save & Test and we will see this result:
 
 ![AzureDataSource](images/AzureDataSourceResult.png)
+
+Successfuly we have connected Azure Monitor to our Grafana hosted in Azure, let's create some visualizations regarding AKS (LAW is linked to AKS directly). I will import an ready made Dashboard from Grafana Dashboards blog.
+
+![AzureMonitorDashboard](images/AzureMonitorDashboard.png)
+
+This is how we can visualize resources from Azure to Grafana.
