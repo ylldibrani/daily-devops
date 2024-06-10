@@ -29,3 +29,7 @@ After the results of correct secret/password let's login to the grafana dashboar
 This is the result that we should get after Save & Test button clicked in grafana dashboard
 
 ![PrometheusDataSourceSuccess](images/PrometheusDataSourceSuccess.png)
+
+To have an view on some graphs regarding Kubernetes api resources we can use customized grafana dashboards on the grafana blog for dashboards, I'm choosing one by my needs so I can see some metrics of current running pods. Go to Dashboards > New > Import and then paste the Id copied from Grafana blog of the dashboard we want to add in our Grafana host.
+
+![GrafanaDashboardImported](images/GrafanaDashboardImported.png)
